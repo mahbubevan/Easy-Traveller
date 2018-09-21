@@ -1,0 +1,29 @@
+.reg-container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.reg-form-container{
+  padding-top: 10px;
+  padding-left: 5px;
+  text-align: justify;
+}
+
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    max-height: 200px;
+    opacity: 1;
+    background-color: #FEB387;
+}

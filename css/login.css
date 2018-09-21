@@ -1,0 +1,29 @@
+body{
+  background-color:;
+  background-image: url('../img/login.png');
+  color: white;
+}
+.userlogin{
+  padding-top: 20%;
+  padding-left:40%;
+}
+
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    max-height: 200px;
+    opacity: 1;
+    background-color: #FEB387;
+}

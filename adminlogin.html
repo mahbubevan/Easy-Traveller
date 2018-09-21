@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Admin Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/login.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+
+  <body>
+
+  <form action="admin.php" method="POST">
+
+    <table cellpadding="20"  align="center" >
+
+        <tr>
+          <td colspan="2" align="center">
+            <h3>Admin Login</h3>
+          </td>
+        </tr>
+
+        <tr>
+          <div class="form-group">
+            <td>
+              <label> Admin </label>
+            </td>
+            <td>
+              <input type="text" class="form-control" placeholder="username" name="admin"/>
+            </td>
+          </div>
+        </tr>
+
+        <tr>
+          <div class="form-group">
+            <td>
+              <label for="inputPassword6"> Password </label>
+            </td>
+            <td>
+              <input type="password" class="form-control" placeholder="password" id="inputPassword6" aria-describedy="passwordHelpInline" name="pwd"/>
+            </td>
+          </div>
+        </tr>
+
+        <tr>
+          <div class="form-group">
+            <td>
+              <label> Pin Code </label>
+            </td>
+            <td>
+              <input type="password" class="form-control" placeholder="Pin Number" name="pin"/>
+            </td>
+          </div>
+        </tr>
+
+        <tr>
+      
+          <div>
+            <td align="right">
+              <button type="submit" class="btn btn-primary" name="adsubmit">Submit</button>
+            </td>
+          </div>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

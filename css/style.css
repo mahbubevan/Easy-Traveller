@@ -1,0 +1,67 @@
+
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    max-height: 200px;
+    opacity: 1;
+    background-color: #FEB387;
+}
+
+
+.carousel-section{
+  background-color: ;
+  padding-top:;
+}
+
+.img-fluid{
+  width: 100%;
+  height: 1000px;
+}
+.card-img-top{
+  height: 200px;
+}
+
+.carousel-caption{
+  top:10%;
+  transform: translateX(40%);
+
+}
+.lightbox{
+  text-decoration: none !important;
+  color: black;
+}
+
+.lightbox:hover{
+  color: #00BFFF;
+}
+.lightbox2{
+  text-decoration: none !important;
+  color: white;
+}
+
+.lightbox2:hover{
+  color: #00BFFF;
+}
+
+.footer{
+  background-color: 	#696969;
+  color: white;
+  height: 500px;
+  padding-top: 80px;
+  margin-top: 80px;
+}
+
+
+/* Scrool Button */

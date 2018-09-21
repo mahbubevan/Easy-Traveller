@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<user>
+  <person id="1">
+    <firstname>Mahbub</firstname>
+    <lastname>Alam</lastname>
+    <username>evan</username>
+    <password>evan1234</password>
+    <email>evanpulse92@gmail.com</email>
+    <phoneno>01686169922</phoneno>
+    <adDate>
+      <date> 15 </date>
+      <month> 01 </month>
+      <year> 1994 </year>
+    </adDate>
+    <gender> Male </gender>
+    <address>
+      <flatno/>
+      <houseno> H#38 </houseno>
+      <roadno> R#3 </roadno>
+      <zone> Gazipur </zone>
+      <city> Dhaka </city>
+    </address>
+  </person>
+
+  <person id="2">
+    <firstname> Raqib </firstname>
+    <lastname> Hassan </lastname>
+    <username>raqib</username>
+    <password>raqib1234</password>
+    <email> raqib@hotmail.com </email>
+    <phoneno> 01981535043 </phoneno>
+    <adDate>
+      <date> 25 </date>
+      <month> 12 </month>
+      <year> 1994 </year>
+    </adDate>
+    <gender>Male</gender>
+    <address>
+      <flatno/>
+      <houseno> H#38 </houseno>
+      <roadno> R#3 </roadno>
+      <zone> Mirpur </zone>
+      <city> Dhaka </city>
+    </address>
+  </person>
+</user>

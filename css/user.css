@@ -1,0 +1,62 @@
+body{
+  background-color: #00BFFF;
+}
+.text-modify{
+  text-decoration: none;
+  color:#00BFFF;
+  letter-spacing: 3px;
+  line-height: 1.8;
+  text-shadow: 1px 1px grey;
+  font-size: 200%;
+  font-weight: bold;
+}
+a:hover{
+  color: orange;
+}
+
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    max-height: 200px;
+    opacity: 1;
+    background-color: #FEB387;
+}
+
+.card-columns{
+  padding-top: 100px;
+}
+.card{
+  background-color:#271B19;
+  height: 200px;
+
+}
+.card-text{
+  padding-top: 70px;;
+}
+
+.available-package{
+  background-image: url("../img/.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.car-box{
+  background-image: url("../img/.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.heading{
+  padding-top: 50px;
+}
